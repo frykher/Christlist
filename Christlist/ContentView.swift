@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import SpriteKit
+import UIKit
 
 struct ContentView: View {
     var body: some View {
         TabView {
-            PartsScreen()
+            SpriteScreen()
                 .tabItem {
                     Image(systemName: "star")
                     Text("Parts")
