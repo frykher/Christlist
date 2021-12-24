@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381ED40A2776633600296997 /* SpriteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED4092776633600296997 /* SpriteScreen.swift */; };
+		381ED40C2776645900296997 /* Sprites in Resources */ = {isa = PBXBuildFile; fileRef = 381ED40B2776645900296997 /* Sprites */; };
 		DDA09AA327762443005AD9D8 /* ChristlistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA09AA227762443005AD9D8 /* ChristlistApp.swift */; };
 		DDA09AA527762443005AD9D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA09AA427762443005AD9D8 /* ContentView.swift */; };
 		DDA09AA727762444005AD9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA09AA627762444005AD9D8 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		381ED4092776633600296997 /* SpriteScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteScreen.swift; sourceTree = "<group>"; };
+		381ED40B2776645900296997 /* Sprites */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sprites; sourceTree = "<group>"; };
 		DDA09A9F27762443005AD9D8 /* Christlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Christlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA09AA227762443005AD9D8 /* ChristlistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristlistApp.swift; sourceTree = "<group>"; };
 		DDA09AA427762443005AD9D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,7 @@
 		DDA09AA127762443005AD9D8 /* Christlist */ = {
 			isa = PBXGroup;
 			children = (
+				381ED40B2776645900296997 /* Sprites */,
 				DDA09AB027762E9A005AD9D8 /* Screens */,
 				DDA09AA227762443005AD9D8 /* ChristlistApp.swift */,
 				DDA09AA427762443005AD9D8 /* ContentView.swift */,
@@ -78,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				DDA09AB127762ECB005AD9D8 /* PartsScreen.swift */,
+				381ED4092776633600296997 /* SpriteScreen.swift */,
 				DDA09AB327762F17005AD9D8 /* ListScreen.swift */,
 				DDDE30532776684F00A74F89 /* DecorSelectScreen.swift */,
 			);
@@ -142,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381ED40C2776645900296997 /* Sprites in Resources */,
 				DDA09AAA27762444005AD9D8 /* Preview Assets.xcassets in Resources */,
 				DDA09AA727762444005AD9D8 /* Assets.xcassets in Resources */,
 			);
@@ -159,6 +166,7 @@
 				DDA09AA327762443005AD9D8 /* ChristlistApp.swift in Sources */,
 				DDA09AB227762ECB005AD9D8 /* PartsScreen.swift in Sources */,
 				DDA09AB427762F17005AD9D8 /* ListScreen.swift in Sources */,
+				381ED40A2776633600296997 /* SpriteScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
