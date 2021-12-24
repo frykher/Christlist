@@ -13,6 +13,7 @@
 		DDA09AAA27762444005AD9D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA09AA927762444005AD9D8 /* Preview Assets.xcassets */; };
 		DDA09AB227762ECB005AD9D8 /* PartsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA09AB127762ECB005AD9D8 /* PartsScreen.swift */; };
 		DDA09AB427762F17005AD9D8 /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA09AB327762F17005AD9D8 /* ListScreen.swift */; };
+		DDDE30542776684F00A74F89 /* DecorSelectScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE30532776684F00A74F89 /* DecorSelectScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DDA09AA927762444005AD9D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDA09AB127762ECB005AD9D8 /* PartsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsScreen.swift; sourceTree = "<group>"; };
 		DDA09AB327762F17005AD9D8 /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
+		DDDE30532776684F00A74F89 /* DecorSelectScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorSelectScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				DDA09AB127762ECB005AD9D8 /* PartsScreen.swift */,
 				DDA09AB327762F17005AD9D8 /* ListScreen.swift */,
+				DDDE30532776684F00A74F89 /* DecorSelectScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDA09AA527762443005AD9D8 /* ContentView.swift in Sources */,
+				DDDE30542776684F00A74F89 /* DecorSelectScreen.swift in Sources */,
 				DDA09AA327762443005AD9D8 /* ChristlistApp.swift in Sources */,
 				DDA09AB227762ECB005AD9D8 /* PartsScreen.swift in Sources */,
 				DDA09AB427762F17005AD9D8 /* ListScreen.swift in Sources */,
