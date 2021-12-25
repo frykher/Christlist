@@ -12,16 +12,16 @@ import UIKit
 struct ContentView: View {
     var body: some View {
         TabView {
-            NavigationView {
-                NavigationLink(destination: DecorSelectScreen()) {
-                    SpriteScreen()
+            DecorList()
+                .tabItem {
+                    Image(systemName: "box")
+                    Text("Decor")
                 }
-                .navigationTitle("Your tree")
-            }
-            .tabItem {
-                Image(systemName: "star")
-                Text("Parts")
-            }
+            SpriteScreen()
+                .tabItem {
+                    Image(systemName: "star")
+                    Text("Parts")
+                }
             
             ListScreen()
                 .tabItem {
